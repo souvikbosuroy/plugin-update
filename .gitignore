@@ -1,0 +1,24 @@
+# WordPress core files
+wp-admin/
+wp-includes/
+*.log
+
+# Config
+wp-config.php
+
+# Uploads
+wp-content/uploads/
+
+# Cache
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/backups/
+
+# Plugins/themes dependency folders
+node_modules/
+vendor/
+
+# OS files
+.DS_Store
+Thumbs.db
